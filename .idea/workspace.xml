@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fc229961-c06f-491e-974a-585456fa0e80" name="Changes" comment="&quot;Fixed codes from each file&quot;">
-      <change afterPath="$PROJECT_DIR$/src/models/AgendaException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="fc229961-c06f-491e-974a-585456fa0e80" name="Changes" comment="&quot;Fixed codes from each file&quot;" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -29,12 +26,12 @@
     &quot;assignee&quot;: &quot;ingchristopherrosales-cmyk&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/alejandroblancojmz-droid/Hackathon-2.git",
-    "accountId": "2f4f4012-96a8-401b-862a-41bd42b9e9d9"
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/alejandroblancojmz-droid/Hackathon-2.git&quot;,
+    &quot;accountId&quot;: &quot;2f4f4012-96a8-401b-862a-41bd42b9e9d9&quot;
   }
-}]]></component>
+}</component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
       <entry key="MS100" value="1.0" />
