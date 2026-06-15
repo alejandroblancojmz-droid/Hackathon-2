@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="fc229961-c06f-491e-974a-585456fa0e80" name="Changes" comment="&quot;Make a directory&quot;">
+      <change beforePath="$PROJECT_DIR$/src/models/agenda.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/agenda.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;ingchristopherrosales-cmyk&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/alejandroblancojmz-droid/Hackathon-2.git&quot;,
+    &quot;accountId&quot;: &quot;42390a2d-aed5-447b-b1d8-bda2fc75c5fa&quot;
+  }
+}</component>
+  <component name="NextEditCompletionFeaturesState">
+    <decayedCancelled>
+      <entry key="MS100" value="1.0000000045677755" />
+      <entry key="MS500" value="1.0421069693198235" />
+      <entry key="S2" value="2.2166409854181066" />
+      <entry key="S5" value="3.739633899900404" />
+      <entry key="S10" value="4.675429076720574" />
+      <entry key="S30" value="5.505170727095671" />
+      <entry key="S60" value="5.745157675419521" />
+      <entry key="M2" value="5.870658686534781" />
+      <entry key="M5" value="5.947794275666256" />
+      <entry key="M10" value="5.973818229566233" />
+      <entry key="M15" value="5.982527898311852" />
+      <entry key="M30" value="5.99125514185882" />
+      <entry key="H1" value="5.995625366614273" />
+      <entry key="H2" value="5.997812131916661" />
+      <entry key="H4" value="5.998905928071729" />
+      <entry key="D1" value="5.999817635524395" />
+      <entry key="W1" value="5.999973947462933" />
+    </decayedCancelled>
+    <decayedSelected>
+      <entry key="MS100" value="0.0" />
+      <entry key="MS500" value="0.0" />
+      <entry key="S2" value="0.0" />
+      <entry key="S5" value="0.0" />
+      <entry key="S10" value="0.0" />
+      <entry key="S30" value="0.0" />
+      <entry key="S60" value="0.0" />
+      <entry key="M2" value="0.0" />
+      <entry key="M5" value="0.0" />
+      <entry key="M10" value="0.0" />
+      <entry key="M15" value="0.0" />
+      <entry key="M30" value="0.0" />
+      <entry key="H1" value="0.0" />
+      <entry key="H2" value="0.0" />
+      <entry key="H4" value="0.0" />
+      <entry key="D1" value="0.0" />
+      <entry key="W1" value="0.0" />
+    </decayedSelected>
+    <decayedShown>
+      <entry key="MS100" value="0.9265880662418075" />
+      <entry key="MS500" value="1.026561355013645" />
+      <entry key="S2" value="2.2067458234840927" />
+      <entry key="S5" value="3.7295328064504747" />
+      <entry key="S10" value="4.667922082448878" />
+      <entry key="S30" value="5.50185402967617" />
+      <entry key="S60" value="5.743374966486597" />
+      <entry key="M2" value="5.869734275597369" />
+      <entry key="M5" value="5.94741631309013" />
+      <entry key="M10" value="5.9736278592957675" />
+      <entry key="M15" value="5.982400674439801" />
+      <entry key="M30" value="5.991191374317695" />
+      <entry key="H1" value="5.9955934438623935" />
+      <entry key="H2" value="5.99779616078537" />
+      <entry key="H4" value="5.998897940065992" />
+      <entry key="D1" value="5.999816303851099" />
+      <entry key="W1" value="5.999973757215586" />
+    </decayedShown>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3,
+  &quot;fromUser&quot;: false
+}</component>
+  <component name="ProjectId" id="3FBCvbq7tQKLnKrvxtDW4DjUe2K" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
+    &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-30f59d01ecdd-37e91769500f-intellij.indexing.shared.core-IU-261.24374.151" />
+        <option value="bundled-js-predefined-d6986cc7102b-31caf2ab9e3c-JavaScript-IU-261.24374.151" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="fc229961-c06f-491e-974a-585456fa0e80" name="Changes" comment="" />
+      <created>1781539312128</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1781539312128</updated>
+      <workItem from="1781539314302" duration="2538000" />
+    </task>
+    <task id="LOCAL-00001" summary="&quot;Make a directory&quot;">
+      <option name="closed" value="true" />
+      <created>1781542454602</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1781542454602</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Create README.md" />
+    <MESSAGE value="&quot;Make a directory&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="&quot;Make a directory&quot;" />
+  </component>
+</project>
