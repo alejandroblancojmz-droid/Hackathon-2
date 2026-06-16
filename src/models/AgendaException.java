@@ -18,7 +18,6 @@ public class AgendaException extends Exception {
     public static final int ERR_DUPLICADO = 2;
     public static final int ERR_AGENDA_LLENA = 3;
     public static final int ERR_NO_ENCONTRADO = 4;
-
     /**
      * Constructor con mensaje y código de error.
      *
@@ -29,7 +28,6 @@ public class AgendaException extends Exception {
         super(mensaje);
         this.codigoError = codigoError;
     }
-
     /**
      * Constructor simplificado (overloading) sin código de error explícito.
      *

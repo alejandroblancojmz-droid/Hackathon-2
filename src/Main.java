@@ -121,9 +121,6 @@ public class Main {
             System.out.println("✗ " + e.getMessage());
         }
     }
-
-
-
     private static void menuEliminarContacto(Agenda agenda) {
         System.out.println("\n── Eliminar contacto ──");
         try {
