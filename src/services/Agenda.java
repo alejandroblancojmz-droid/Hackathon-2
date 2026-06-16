@@ -68,7 +68,7 @@ public class Agenda {
      * @throws AgendaException ERR_AGENDA_LLENA si no hay espacio.
      * @throws AgendaException ERR_DUPLICADO si el contacto ya existe.
      */
-    public void añadirContacto(Contacto contacto) throws AgendaException {
+    public void anadirContacto(Contacto contacto) throws AgendaException {
         if (agendaLlena()) {
             throw new AgendaException(
                     "La agenda está llena. No se pueden añadir más contactos (máximo: " + tamanoMaximo + ").",

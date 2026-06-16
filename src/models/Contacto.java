@@ -1,4 +1,5 @@
 package models;
+
 /**
  * Representa un contacto de la agenda telefónica.
  *

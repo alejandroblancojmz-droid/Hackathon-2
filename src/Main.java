@@ -32,7 +32,31 @@ public class Main {
     // Inicialización
     // ─────────────────────────────────────────────────────────────────────────
 
+    /**
+     * Permite al usuario elegir el tamaño de la agenda al iniciar.
+     */
+    private static Agenda crearAgenda() {
+        System.out.println("¿Cómo deseas crear la agenda?");
+        System.out.println("  1. Con tamaño por defecto (10 contactos)");
+        System.out.println("  2. Con tamaño personalizado");
+        System.out.print("Opción: ");
 
+        int opcion = leerEntero();
+
+        if (opcion == 2) {
+            System.out.print("Introduce el tamaño máximo: ");
+            int tamano = leerEntero();
+            try {
+                Agenda agenda = new Agenda(tamano);
+                System.out.println("✓ Agenda creada con tamaño máximo de " + tamano + " contactos.\n");
+                return agenda;
+            } catch (IllegalArgumentException e) {
+                System.out.println("⚠ Tamaño inválido. Se usará el tamaño por defecto (10).\n");
+            }
+        }
+        System.out.println("✓ Agenda creada con tamaño por defecto (10 contactos).\n");
+        return new Agenda();
+    }
 
     // ─────────────────────────────────────────────────────────────────────────
     // Menú principal
@@ -83,7 +107,36 @@ public class Main {
     // Opciones del menú
     // ─────────────────────────────────────────────────────────────────────────
 
+    private static void menuAnadirContacto(Agenda agenda) {
+        System.out.println("\n── Añadir contacto ──");
+        try {
+            String nombre   = leerCampo("Nombre:   ");
+            String apellido = leerCampo("Apellido: ");
+            String telefono = leerCampo("Teléfono: ");
 
+            Contacto nuevo = new Contacto(nombre, apellido, telefono);
+            agenda.anadirContacto(nuevo);
+
+        } catch (AgendaException e) {
+            System.out.println("✗ " + e.getMessage());
+        }
+    }
+
+
+
+    private static void menuEliminarContacto(Agenda agenda) {
+        System.out.println("\n── Eliminar contacto ──");
+        try {
+            String nombre   = leerCampo("Nombre:   ");
+            String apellido = leerCampo("Apellido: ");
+
+            Contacto aEliminar = new Contacto(nombre, apellido);
+            agenda.eliminarContacto(aEliminar);
+
+        } catch (AgendaException e) {
+            System.out.println("✗ " + e.getMessage());
+        }
+    }
 
     private static void menuBuscarContacto(Agenda agenda) {
         System.out.println("\n── Buscar contacto ──");
@@ -107,9 +160,46 @@ public class Main {
         }
     }
 
+    private static void menuModificarTelefono(Agenda agenda) {
+        System.out.println("\n── Modificar teléfono ──");
+        try {
+            String nombre        = leerCampo("Nombre:          ");
+            String apellido      = leerCampo("Apellido:        ");
+            String nuevoTelefono = leerCampo("Nuevo teléfono:  ");
 
+            agenda.modificarTelefono(nombre, apellido, nuevoTelefono);
 
+        } catch (AgendaException e) {
+            System.out.println("✗ " + e.getMessage());
+        }
+    }
 
+    private static void menuExisteContacto(Agenda agenda) {
+        System.out.println("\n── Comprobar existencia ──");
+        try {
+            String nombre   = leerCampo("Nombre:   ");
+            String apellido = leerCampo("Apellido: ");
+
+            Contacto consulta = new Contacto(nombre, apellido);
+            boolean existe = agenda.existeContacto(consulta);
+
+            if (existe) {
+                System.out.println("✓ El contacto '" + consulta.getIdentificador() + "' SÍ existe en la agenda.");
+            } else {
+                System.out.println("✗ El contacto '" + consulta.getIdentificador() + "' NO existe en la agenda.");
+            }
+        } catch (AgendaException e) {
+            System.out.println("✗ " + e.getMessage());
+        }
+    }
+
+    private static void mostrarEstadoAgenda(Agenda agenda) {
+        System.out.println("\n── Estado de la agenda ──");
+        System.out.println("  Tamaño máximo : " + agenda.getTamanoMaximo());
+        System.out.println("  Contactos     : " + agenda.getCantidadContactos());
+        System.out.println("  Espacios libres: " + (agenda.getTamanoMaximo() - agenda.getCantidadContactos()));
+        System.out.println("  ¿Agenda llena? : " + (agenda.agendaLlena() ? "SÍ ✗" : "NO ✓"));
+    }
 
     // ─────────────────────────────────────────────────────────────────────────
     // Utilidades de lectura por consola
@@ -131,5 +221,13 @@ public class Main {
         }
     }
 
-
+    /**
+     * Lee una línea de texto no vacía del usuario.
+     * @param etiqueta Texto que se muestra al usuario como prompt.
+     * @return String con la entrada del usuario (sin espacios iniciales/finales).
+     */
+    private static String leerCampo(String etiqueta) {
+        System.out.print(etiqueta);
+        return scanner.nextLine().trim();
+    }
 }
